@@ -1,0 +1,34 @@
+{
+  "name": "homekidz",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint || true",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate deploy",
+    "db:seed": "node prisma/seed.js",
+    "build:vercel": "next build",
+    "start:prod": "NODE_ENV=production NODE_OPTIONS=--max_old_space_size=2048 next start -p 3000"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swr": "^2.0.0",
+    "clsx": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "@prisma/client": "^5.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "tailwindcss": "^4.0.0",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "13.4.7",
+    "prisma": "^4.15.0",
+    "@prisma/client": "^4.15.0"
+  }
+}

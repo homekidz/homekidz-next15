@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "flower-dress",
+      "name": "پیراهن گل‌گلی",
+      "price": 249000,
+      "image": "/images/flower.jpg",
+      "sizes": [
+        "0-3m",
+        "3-6m",
+        "6-12m"
+      ],
+      "description": "پارچه نرم و دوست‌داشتنی برای کوچولوها."
+    },
+    {
+      "id": 2,
+      "slug": "bear-romper",
+      "name": "رامپر خرسی",
+      "price": 199000,
+      "image": "/images/bear.jpg",
+      "sizes": [
+        "0-3m",
+        "3-6m",
+        "6-12m"
+      ],
+      "description": "رامپر با طرح خرسی."
+    },
+    {
+      "id": 3,
+      "slug": "striped-set",
+      "name": "بلوز و شلوار راه‌راه",
+      "price": 179000,
+      "image": "/images/striped.jpg",
+      "sizes": [
+        "6-12m",
+        "12-18m",
+        "18-24m"
+      ],
+      "description": "ست راحتی راه‌راه."
+    }
+  ],
+  "orders": []
+}

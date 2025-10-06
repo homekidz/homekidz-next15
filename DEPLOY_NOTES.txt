@@ -1,0 +1,5 @@
+Upgrade notes:
+- Next.js upgraded to ^15.0.0
+- React to ^19.0.0
+- Ensure you set DATABASE_URL in Vercel Environment Variables
+- Run `npm install` then `npm run build` locally to test
